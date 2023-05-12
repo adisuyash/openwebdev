@@ -1,6 +1,4 @@
-.headings{
-    background-color: #d4ecff;
-    border: 2px solid green;
-    padding: 10px;
-    border-radius: 5px;
+footer {
+  display: flex;
+  justify-content: center;
 }
