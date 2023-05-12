@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Head contains metadata & linking only -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Self Practice | Code With Harry</title>
+</head>
+
+<body>
+    <!-- Body contains what is shown on the Web Page -->
+    <div class="headings">
+        <h1>This is h1</h1>
+        <h2>This is h2</h2>
+        <h3>This is h3</h3>
+        <h4>This is h4</h4>
+        <!-- h5 && h6 are very small -->
+        <h5>This is h5</h5>
+        <h6>This is h6</h6>
+    </div>
+    <hr />
+
+    <!-- Lorem18 is used for 18 words dummy text paragraph -->
+    <div class="paragraph">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptatum
+            cumque, itaque distinctio qui sequi nostrum sunt ipsa?
+        </p>
+        <hr />
+
+        <strong>This is bolded text</strong>
+        <hr />
+        <em>This is emphasised or italicised text</em>
+    </div>
+    <hr />
+
+    <!-- a is tag & href,target are attributes -->
+    <div class="links">
+        <!-- target="_blank" is used to open the link in new tab -->
+        <a href="http://www.google.com" target="_blank">Go to Google</a><br>
+        <a href="http://www.twitter.com" target="_blank">Go to Twitter</a><br>
+        <a href="http://www.github.com/adisuyash" target="_blank">Go to Github</a>
+    </div>
+    <hr>
+
+    <!-- alt is used for showing image text when image isn't loaded -->
+    <div class="image">
+        <img src="/images/self practice.jpeg" alt="stay focussed">
+    </div>
+    <hr />
+
+    <div class="unorderedlist">
+        Unordered List :
+        <!-- type="disc/square/circle" -->
+        <ul type="disc">
+            <li>Data 1</li>
+            <li>Data 2</li>
+            <li>Data 3
+                <ul>
+                    <li>Data 3.1</li>
+                    <li>Data 3.2</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="orderedlist">
+        Ordered List :
+        <!-- type="a/A/I/i/1" -->
+        <ol type="A">
+            <li>Data 1</li>
+            <li>Data 2
+                <ol type="1">
+                    <li>Data 2.1</li>
+                    <li>Data 2.2</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <hr>
+
+    <!-- Table Theory in HTML -->
+    <div class="abouttable">
+        <h2>Table Structure :</h2>
+        <ul>
+            <li>Table Head</li>
+            <ul type="circle">
+                <li>thead</li>
+                <ul type="circle">
+                    <li>tr</li>
+                    <ul type="circle">
+                        <li>th</li>
+                    </ul>
+                </ul>
+            </ul>
+            <li>Table Body</li>
+            <ul>
+                <li>tbody</li>
+                <ul type="circle">
+                    <li>tr</li>
+                    <ul type="circle">
+                        <li>td</li>
+                    </ul>
+                </ul>
+            </ul>
+        </ul>
+    </div>
+
+    <!-- Table in HTML -->
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>country</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aditya</td>
+                    <td>3622</td>
+                    <td>Web</td>
+                    <td>$100k</td>
+                </tr>
+                <tr>
+                    <td>Naitik</td>
+                    <td>4672</td>
+                    <td>Android</td>
+                    <td>$160k</td>
+                </tr>
+                <tr>
+                    <td>Shreya</td>
+                    <td>8475</td>
+                    <td>AR/VR</td>
+                    <td>$130k</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+    <!-- Form in HTML -->
+    <div class="form">
+        <h2>HTML Form</h2>
+        <form action="to-be-made.node.js">
+            <div>
+                <label for="name">Name : </label><input type="text" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email ID : </label><input type="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="dob">DOB : </label><input type="date" id="dob" required>
+            </div>
+            <br>
+            <div>
+                Gender : <input type="radio" name="gender">Male<input type="radio" name="gender">Female<input
+                    type="radio" name="gender">Others
+            </div>
+            <br>
+            <div>
+                <label for="country">Country : </label>
+                <select name="country" id="country" required>
+                    <option value="canada">Canada</option>
+                    <option value="india" selected>India</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Write something about yourself :<br>
+                <textarea name="about" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox" required><label for="checkbox">I agree to all the Terms &
+                    Conditions.</label>
+            </div>
+            <br>
+            <input type="submit" value="Submit Now"><input type="reset" value="Reset">
+        </form>
+    </div>
+    <hr>
+
+    <!-- HTML Entities -->
+    <div class="entities">
+        <h2>HTML Entities</h2>
+        <p>Dollar is written as &#36;</p>
+        <p>Pound is written as &pound;</p>
+        <p>1/4 in fractions is written as &frac14;</p>
+        <p>Paragraph tag is written as &lt;p&gt;</p>
+        <p>Copyright sign is written as &copy;</p>
+        <p>Trade Mark sign is written as &#8482;</p>
+        <p>Extra spaces are written as &nbsp;(You will see 2 spaces)</p>
+        <p>Want more entities? <a href="https://symbl.cc/en/html-entities/" target="_blank">Click here</a></p>
+    </div>
+    <hr>
+
+    <div class="semantic">
+        <h2>Semantic Elements</h2>
+        <p>
+            A <strong>semantic element</strong> clearly <u>describes its meaning to both the browser and the
+                developer</u>.
+        </p>
+        <p>These are <em>some</em> of the roughly 100 semantic elements available:</p>
+        <ul>
+            <li><code>&lt;article&gt;</code></a></li>
+            <li><code>&lt;aside&gt;</code></a></li>
+            <li><code>&lt;details&gt;</code></a></li>
+            <li><code>&lt;figcaption&gt;</code></a></li>
+            <li><code>&lt;figure&gt;</code></a></li>
+            <li><code>&lt;form&gt;</code></a></li>
+            <li><code>&lt;footer&gt;</code></a></li>
+            <li><code>&lt;header&gt;</code></a></li>
+            <li><code>&lt;main&gt;</code></a></li>
+            <li><code>&lt;mark&gt;</code></a></li>
+            <li><code>&lt;nav&gt;</code></a></li>
+            <li><code>&lt;section&gt;</code></a></li>
+            <li><code>&lt;summary&gt;</code></a></li>
+            <li><code>&lt;time&gt;</code></a></li>
+        </ul>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Non-Semantic HTML</th>
+                    <th>Semantic HTML</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Examples of <strong>non-semantic elements</strong>:</td>
+                    <td>Examples of <strong>semantic elements:</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt; and &lt;span&gt;</td>
+                    <td></strong> &lt;form&gt;, &lt;table&gt; and &lt;article&gt;</td>
+                </tr>
+                <tr>
+                    <td>Tells nothing about its content.</td>
+                    <td>Clearly defines its content.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/images/non-semantic html.png" alt="non-semantic html" width="250">
+                    </td>
+                    <td>
+                        <img src="/images/semantic html.png" alt="semantic html" width="250">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
