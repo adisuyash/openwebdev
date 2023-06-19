@@ -2,3 +2,27 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.heading {
+  padding: 5%;
+  margin: 25px;
+  width: 32%;
+}
+
+#h1 {
+  border: 2px solid rgba(255, 51, 51, 0.575);
+  background-color: rgb(174, 7, 7);
+  border-radius: 20px;
+}
+
+#h2 {
+  border: 2px solid rgba(51, 255, 119, 0.575);
+  background-color: rgb(7, 174, 71);
+  border-radius: 20px;
+}
+
+#h3 {
+  border: 2px solid rgba(51, 122, 255, 0.571);
+  background-color: rgb(49, 7, 174);
+  border-radius: 20px;
+}
