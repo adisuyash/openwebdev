@@ -1,9 +1,3 @@
-footer {
-  display: flex;
-  justify-content: center;
-  overflow: auto;
-}
-
 .heading {
   padding: 8px;
   margin: auto;
