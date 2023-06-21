@@ -31,14 +31,10 @@ p.para-css {
   text-align: justify;
 }
 
-div.main {
+.heading-top {
   width: 50%;
   margin: auto;
   display: block;
-}
-
-.heading-top {
-  margin: auto;
   text-align: center;
 }
 
