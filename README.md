@@ -25,10 +25,5 @@ Please make sure to follow our code of conduct and guidelines for contributing. 
 - We have tagged them with labels to help you find issues that match your skills and interests.
 > If you have any questions about an issue, feel free to ask in the comments section of the issue.
 
-## Contributors
-
-We appreciate all the contributions made by our contributors. If you want to contribute to this project, please add your name to the list below:
-
-- [Aditya Suyash Gupta](https://github.com/adisuyash)
-
+We appreciate all the contributions made by our contributors. 
 Thank you for your interest in contributing to this project. We look forward to your contributions!
